@@ -8,7 +8,7 @@ on:
       - '**'
 
 jobs:
-  custom-action:
+  custom:
     steps:
       - name: Checkout
         uses: cloudbees-io/checkout@v1
